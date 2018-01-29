@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "preLaunchTask": "build",
+            "mainClass": "App",
+            "args": "dat/puzzle25.txt",
+            "classPaths": [
+                "out",
+                "libs/*"
+            ]
+        }
+    ]
+}

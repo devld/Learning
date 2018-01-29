@@ -1,0 +1,3 @@
+- Merge Sort
+- Quick Sort
+- Three Way Quick Sort
