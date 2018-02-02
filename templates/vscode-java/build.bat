@@ -24,7 +24,7 @@ if not exist %DIR_OUT% (
 
 dir /s /B %DIR_SRC%\*.java > sourceFiles.txt
 
-javac -J-Duser.language=en -cp %DIR_LIB%\* -d %DIR_OUT% @sourceFiles.txt
+javac -J-Duser.language=en -cp %DIR_LIB%\* -d %DIR_OUT% -encoding utf8 @sourceFiles.txt
 set code=%errorlevel%
 set err=
 del sourceFiles.txt
