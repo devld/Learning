@@ -8,13 +8,12 @@
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "preLaunchTask": "build",
             "mainClass": "App",
-            "args": "",
             "classPaths": [
-                "out",
+                "bin/",
                 "libs/*"
-            ]
+            ],
+            "args": ""
         }
     ]
 }

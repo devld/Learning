@@ -1,8 +1,3 @@
-Simple Java project in Visual Studio Code.
+# vscode-java template project
 
-| File  | Description |
-| :---: | ----------- |
-| src/  | source code |
-| out/  | build files |
-
-**Java compiler must 'javac' must in your PATH**
+A Java project template in VSCode.

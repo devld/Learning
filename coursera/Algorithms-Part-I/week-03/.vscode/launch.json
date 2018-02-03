@@ -8,13 +8,12 @@
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "preLaunchTask": "build",
             "mainClass": "App",
-            "args": "dat/input56.txt", // test data in 'dat/'
             "classPaths": [
-                "out",
+                "bin/",
                 "libs/*"
-            ]
+            ],
+            "args": "dat/input56.txt"
         }
     ]
 }
