@@ -8,5 +8,8 @@ public class App {
         System.out.println("==== Union-find with specific canonical element ====");
         UnionFindMaxElement.main(args);
 
+        System.out.println("==== Search in a bitonic array ====");
+        SearchBitonic.main(args);
+
     }
 }
