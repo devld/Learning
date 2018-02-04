@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 public class ThreeWayQuickSort {
 
     private static void sort(int[] s, int l, int h) {
